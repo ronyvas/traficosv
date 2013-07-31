@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/fragment_container"
+            android:layout_height="match_parent"
+            />
+
+</LinearLayout>
+<!-- From: file:/Users/Vasquez/AndroidStudioProjects/TraficoSVProject/TraficoSV/src/main/res/layout/activity_main.xml -->

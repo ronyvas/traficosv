@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <fragment
+            android:name="com.rvasquez.traficosv.demo.fragments.TweetListFragment"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/fragTweetListFragment"
+            tools:layout="@layout/frag_tweet_list"/>
+
+    <fragment
+            android:name="com.rvasquez.traficosv.demo.fragments.TweetDetailFragment"
+            android:id="@+id/fragTweetDetailFragment"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            tools:layout="@layout/frag_tweet_detail"/>
+
+</LinearLayout>
+<!-- From: file:/Users/Vasquez/AndroidStudioProjects/TraficoSVProject/TraficoSV/src/main/res/layout-large/activity_main.xml -->
